@@ -2,7 +2,7 @@
     <div class="container" v-if="loaded">
       <div class="info">
         <div class="date-text">
-          <p>Count down to {{ date }}/{{ month }}/{{ year }} </p>
+          <p>Count down to {{ date }}/{{ month + 1}}/{{ year }} </p>
         </div>
         <div class="expired-text" v-if="expired">Expired!</div>
       </div>
